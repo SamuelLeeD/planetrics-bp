@@ -1,0 +1,26 @@
+.remark-slide-content {
+    border-top: 80px solid #009B00;    
+}
+
+.title-slide {
+    border-top: 80px solid #FAFAFA;    
+}
+
+
+hr, .title-slide h2::after, .mline h1::after {
+    content: '';
+    display: block;
+    border: none;
+    background-color: #009B00;
+    color: #009B00;
+    height: 2px;
+  }
+  
+.remark-slide table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 1px; }
+
+.remark-slide table {
+  margin: 2px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
